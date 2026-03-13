@@ -1,57 +1,304 @@
-&lt;img align="center" width="100%" src="https://zane-nostalgia.kiyo-n-zane.com/scenes/noise/api?height=400&width=2600&bannerText=Hello%2C+I+am+Vinh+%21%F0%9F%91%8B" /&gt;
+<!-- Banner Header with Typing Animation -->
+<div align="center">
+  
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&random=false&width=800&lines=Hi+%F0%9F%91%8B%2C+I'm+Lê+Quang+Vinh;AI+Engineer+%7C+Agentic+AI+Specialist;RAG+Systems+Architect;Building+Production+AI+@+99%25+Accuracy)](https://git.io/typing-svg)
 
-&lt;p align="center"&gt;
-  &lt;a href="https://github.com/Vinh-Gogo"&gt;GitHub&lt;/a&gt; •
-  &lt;a href="https://www.youtube.com/watch?v=RHZPNONKj3Q"&gt;Demo&lt;/a&gt; •
-  &lt;a href="mailto:lea26462@gmail.com"&gt;Email&lt;/a&gt;
-&lt;/p&gt;
+<!-- Profile Views Counter -->
+<img src="https://komarev.com/ghpvc/?username=Vinh-Gogo&label=Profile%20Views&color=00d9ff&style=for-the-badge" alt="Profile Views" />
 
-&lt;img align="center" width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=6366F1&height=120&section=header" /&gt;
+<!-- Animated Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=180&section=header&text=&fontSize=0" width="100%"/>
 
-## Agentic AI & RAG Systems Engineer
-
-Production ML Engineer building enterprise AI solutions — 99% accuracy RAG systems, automated customer agents, and intelligent document processing.
-
----
-
-### Featured Work
-
-**AI Customer Automation** — Multi-platform agents handling 32 concurrent interactions with 99% accuracy. Automated inquiry-to-invoice workflow for Zalo and Facebook Business.
-
-[Demo](https://www.youtube.com/watch?v=RHZPNONKj3Q) • [Code](https://github.com/Vinh-Gogo)
-
-**Enterprise RAG Platform** — 200+ page document processing reduced from 2 hours to 3 minutes. 200+ hours saved monthly for business operations.
-
-[Demo](https://youtu.be/_XYvv0c7cGA) • [Code](https://github.com/Vinh-Gogo/pdf-rag)
-
-**Government AI Integration** — LLM-powered database query system deployed for public sector investment planning.
-
-[Live](https://pkhdtiuh.com)
-
-**Vietnamese F&B Search** — Hybrid Knowledge Graph + RAG system with 95% accuracy for restaurant and dish discovery.
-
-[Demo](https://www.youtube.com/watch?v=RHZPNONKj3Q)
+</div>
 
 ---
 
-### Research
+## 🎯 About Me
 
-**CNN-Based Image Depth Estimation** — Published @ SSRC. 90% accuracy, 3M parameters, optimized for edge deployment in autonomous systems.
+```python
+class AIEngineer:
+    def __init__(self):
+        self.name = "Lê Quang Vinh"
+        self.role = "Machine Learning Engineer"
+        self.specialization = ["Agentic AI", "RAG Systems", "LLM Production"]
+        self.impact = "270K+ tokens @ 99% accuracy"
+        self.location = "Ho Chi Minh City, Vietnam 🇻🇳"
+        self.mission = "Advancing Vietnam's AI ecosystem"
+        
+    def current_focus(self):
+        return {
+            "building": "Production Agent AI & RAG systems",
+            "teaching": "30+ tech sessions & mentorship",
+            "scaling": "AI solutions for Vietnamese businesses"
+        }
+    
+    def say_hi(self):
+        return "Let's build intelligent systems that matter! 🤖"
 
-[Paper](https://ssrc.fit.iuh.edu.vn/conf/article/view/43)
+me = AIEngineer()
+
+<!-- GitHub Stats Grid -->
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Vinh-Gogo&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00d9ff&icon_color=00d9ff&text_color=c9d1d9"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vinh-Gogo&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9"/>
+</div>
+
+<!-- Streak Stats -->
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Vinh-Gogo&theme=tokyonight&hide_border=true&background=0d1117&stroke=00d9ff&ring=00d9ff&fire=ff6b6b&currStreakLabel=00d9ff" alt="GitHub Streak" />
+</div>
 
 ---
 
-### Tech Stack
+## 🚀 Signature Projects
 
-Python • PyTorch • LangChain • LlamaIndex • Claude API • FastAPI • Docker • AWS • Vector DB • Knowledge Graphs
+<table>
+<tr>
+<td width="50%">
+
+### 🤖 AI Agentic Chatbot | Unite Group
+**`Production AI Agent`**
+
+[![Demo](https://img.shields.io/badge/🎥_Watch_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=RHZPNONKj3Q)
+[![Chat](https://img.shields.io/badge/💬_Facebook_Chat-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](your-facebook-link)
+
+- ⚡ **32 concurrent customers** @ 99% accuracy
+- 🔄 Automates Zalo & Facebook conversations
+- 📊 Converts inquiries → orders → appointments → invoices
+- 💰 Measurable ROI & operational cost reduction
+
+</td>
+<td width="50%">
+
+### 📄 AI RAG Platform | WTEC
+**`Enterprise Document AI`**
+
+[![Demo](https://img.shields.io/badge/🎥_Watch_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/_XYvv0c7cGA)
+[![GitHub](https://img.shields.io/badge/📁_View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vinh-Gogo/pdf-rag)
+
+- 🚀 **200+ page PDF processing** @ 99% accuracy
+- ⏱️ **2 hours → 3 minutes** per document
+- 💼 **200+ hours saved monthly** for Vietnamese businesses
+- 🔍 Intelligent document understanding & extraction
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🏛️ MCP Database Query | IUH
+**`Government AI Solution`**
+
+[![Live](https://img.shields.io/badge/🌐_Live_Site-00C853?style=for-the-badge&logo=google-chrome&logoColor=white)](https://pkhdtiuh.com)
+
+- 🏗️ Revit Add-in with Claude LLM integration
+- 💬 Natural language queries for project plans
+- 🎯 Real-time information dissemination
+- 🏛️ Deployed for Office of Investment & Planning
+
+</td>
+<td width="50%">
+
+### 🍜 SUPERNOVA MCP KG RAG
+**`Vietnamese F&B AI`**
+
+[![Demo](https://img.shields.io/badge/🎥_Watch_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=RHZPNONKj3Q)
+
+- 🔍 **95% accurate** restaurant & dish discovery
+- 🧠 Hybrid search: Knowledge Graph + RAG
+- 🤖 Automated customer support & invoicing
+- 🇻🇳 Tailored for Vietnamese F&B businesses
+
+</td>
+</tr>
+</table>
 
 ---
 
-### Academic
+## 🧠 Research & Publications
 
-Guest Lecturer at Industrial University of Ho Chi Minh City. 30+ technical sessions on Advanced AI/ML, mentoring students and supervising industry internships.
+<div align="center">
+
+### 📚 CNN-Based Image Depth Estimation Methods
+**`Published @ SSRC` | Score: 4.0/4.0**
+
+[![Publication](https://img.shields.io/badge/📖_Read_Paper-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white)](https://ssrc.fit.iuh.edu.vn/conf/article/view/43)
+
+</div>
+
+- 🎯 **90% accuracy** in 2D → 3D point cloud conversion
+- 🏗️ **7 custom CNN architectures** designed & implemented
+- 🚀 **3M parameters** - lightweight for edge deployment
+- 🚗 Applications: Autonomous vehicles, industrial automation, 3D reconstruction
 
 ---
 
-&lt;img align="center" width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=6366F1&height=120&section=footer" /&gt;
+## 🛠️ Tech Stack & Tools
+
+<div align="center">
+
+### 🤖 AI/ML Core
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-D4A574?style=for-the-badge&logo=anthropic&logoColor=black)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+
+### 🔧 Agentic AI & RAG
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LlamaIndex](https://img.shields.io/badge/LlamaIndex-000000?style=for-the-badge&logo=llamaindex&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-00D9FF?style=for-the-badge&logo=protocol&logoColor=white)
+![Vector DB](https://img.shields.io/badge/Vector_DB-FF6B6B?style=for-the-badge&logo=pinecone&logoColor=white)
+
+### 💻 Software Engineering
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+</div>
+
+---
+
+## 🎓 Education & Mentorship
+
+<div align="center">
+
+### 🏫 Industrial University of Ho Chi Minh City (2021-2025)
+
+</div>
+
+> 🎤 **Guest Lecturer** - Advanced AI/ML Topics
+
+- 👨‍🏫 Invited by **Assoc.Prof.Dr. Huynh T. Nguyen** to teach specialized AI/ML courses
+- 🎯 Mentor Computer Science final-year students & support interns at partner companies
+- 💡 Demo AI solutions for graduation projects by invitation of **Master Nguyen N. Le**
+- 🌱 **30+ tech sessions** conducted - inspiring next-gen AI talent in Vietnam
+
+---
+
+## 📊 GitHub Contribution Graph
+
+<div align="center">
+  
+<!-- Snake Animation -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vinh-Gogo/Vinh-Gogo/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Vinh-Gogo/Vinh-Gogo/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Vinh-Gogo/Vinh-Gogo/output/github-contribution-grid-snake.svg">
+</picture>
+
+</div>
+
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+  
+[![trophy](https://github-profile-trophy.vercel.app/?username=Vinh-Gogo&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+---
+
+## 📈 Activity Graph
+
+<div align="center">
+  
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Vinh-Gogo&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ff6b6b&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+</div>
+
+---
+
+## 🌐 Connect With Me
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/📧_Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lea26462@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/🔗_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](your-linkedin-url)
+[![YouTube](https://img.shields.io/badge/📺_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=RHZPNONKj3Q)
+[![Facebook](https://img.shields.io/badge/👥_Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](your-facebook-url)
+
+### 📱 Direct Contact
+**Phone:** +84 985 189 541  
+**Email:** lea26462@gmail.com  
+**GitHub:** [@Vinh-Gogo](https://github.com/Vinh-Gogo)
+
+</div>
+
+---
+
+<div align="center">
+
+### 💡 "Building intelligent systems that solve real business challenges"
+
+<!-- Footer Wave -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer&text=&fontSize=0" width="100%"/>
+
+**Made with ❤️ and 🤖 by Vinh-Gogo**
+
+</div>
+```
+
+---
+
+## 🚀 Hướng dẫn Setup
+
+### Bước 1: Tạo Repository
+1. Tạo repo mới tên: **`Vinh-Gogo`** (giống hệt username)
+2. Chọn **Public** và tick **"Add a README file"**
+
+### Bước 2: Copy & Paste
+- Copy toàn bộ code markdown ở trên
+- Paste vào file `README.md`
+
+### Bước 3: Cấu hình GitHub Actions (Cho Snake Animation)
+Tạo file `.github/workflows/snake.yml`:
+
+```yaml
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: Platane/snk@master
+        id: snake-gif
+        with:
+          github_user_name: Vinh-Gogo
+          svg_out_path: dist/github-contribution-grid-snake.svg
+          snake_color: 'blue'
+      - uses: crazy-max/ghaction-github-pages@v2.1.3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+### Bước 4: Cập nhật Links
+- Thay `your-linkedin-url` bằng link LinkedIn thực
+- Thay `your-facebook-url` bằng link Facebook thực
+- Cập nhật các demo links nếu cần
+
+---
+
+## ✨ Tính năng đặc biệt trong Profile này:
+
+1. **🎬 Typing Animation** - Chữ đánh máy động với nhiều dòng mô tả
+2. **🐍 Contribution Snake** - Rắn ăn contribution grid (cần setup GitHub Actions)
+3. **📊 Real-time Stats** - GitHub stats, streak, activity graph tự động cập nhật
+4. **🏆 Trophies** - Hiển thị thành tích GitHub
+5. **🎨 Code Persona** - Giới thiệu bản thân bằng Python class
+6. **📋 Project Cards** - Bảng dự án với badges và links
+7. **🌊 Wave Banner** - Header/footer sóng động
+8. **🇻🇳 Vietnam Focus** - Nhấn mạnh đóng góp cho hệ sinh thái AI Việt Nam

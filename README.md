@@ -1,3 +1,4 @@
+```markdown
 <!-- Banner Header with Typing Animation -->
 <div align="center">
   
@@ -36,6 +37,7 @@ class AIEngineer:
         return "Let's build intelligent systems that matter! 🤖"
 
 me = AIEngineer()
+```
 
 <!-- GitHub Stats Grid -->
 <div align="center">
@@ -241,3 +243,4 @@ me = AIEngineer()
 **Made with ❤️ and 🤖 by Vinh-Gogo**
 
 </div>
+```

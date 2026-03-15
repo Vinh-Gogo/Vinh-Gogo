@@ -89,26 +89,6 @@
 </tr>
 </table>
 
----
-
-## 🧠 Research & Publications
-
-<div align="center">
-
-### 📚 CNN-Based Image Depth Estimation Methods
-**`Published @ SSRC` | Score: 4.0/4.0**
-
-[![Publication](https://img.shields.io/badge/📖_Read_Paper-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white)](https://ssrc.fit.iuh.edu.vn/conf/article/view/43)
-
-</div>
-
-- 🎯 **90% accuracy** in 2D → 3D point cloud conversion
-- 🏗️ **7 custom CNN architectures** designed & implemented
-- 🚀 **3M parameters** - lightweight for edge deployment
-- 🚗 Applications: Autonomous vehicles, industrial automation, 3D reconstruction
-
----
-
 ## 🛠️ Tech Stack & Tools
 
 <div align="center">
@@ -135,8 +115,6 @@
 
 </div>
 
----
-
 ## 📈 Activity Graph
 
 <div align="center">
@@ -144,8 +122,6 @@
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Vinh-Gogo&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ff6b6b&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
-
----
 
 ## 🌐 Connect With Me
 

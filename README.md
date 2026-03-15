@@ -11,7 +11,7 @@
 
 </div>
 
----
+--- 
 
 <!-- GitHub Stats Grid -->
 <div align="center">

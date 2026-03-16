@@ -22,8 +22,6 @@
 
 </div>
 
----
-
 <div align="center">
 
 ### 💡 "Building intelligent systems that solve real business challenges"

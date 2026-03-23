@@ -6,9 +6,6 @@
 <!-- Profile Views Counter -->
 <!-- <img src="https://komarev.com/ghpvc/?username=Vinh-Gogo&label=Profile%20Views&color=00d9ff&style=for-the-badge" alt="Profile Views" /> -->
 
-<!-- Animated Banner -->
-<!-- <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=180&section=header&text=&fontSize=0" width="100%"/> -->
-
 </div>
 
 <!-- Streak Stats -->

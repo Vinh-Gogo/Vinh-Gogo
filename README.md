@@ -8,10 +8,7 @@
 
 </div>
 
-<!-- Streak Stats -->
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Vinh-Gogo&theme=tokyonight&hide_border=true&background=0d1117&stroke=00d9ff&ring=00d9ff&fire=ff6b6b&currStreakLabel=00d9ff" alt="GitHub Streak" />
-</div>
+
 
 <div align="center">
   

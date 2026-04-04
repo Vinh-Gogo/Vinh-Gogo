@@ -1,0 +1,141 @@
+
+<!-- Hero Circle Component - Independent Standalone File -->
+<!-- Can be embedded anywhere: markdown, websites, iframes -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Circle Eye</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+
+        .hero-circle {
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #DAD2F4 0%, #B9A8E8 50%, #e8d5f0 100%);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: fadeUp .8s .2s forwards;
+            opacity: 0;
+            box-shadow: 0 20px 60px rgba(185, 168, 232, 0.3);
+        }
+
+        @keyframes fadeUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .eye-svg {
+            width: 200px;
+            height: 200px;
+        }
+
+        .eye-svg .eye-bg {
+            fill: #DAD2F4;
+        }
+
+        .eye-svg .eye-shape {
+            fill: #DAD2F4;
+            stroke: #212123;
+            stroke-width: 3;
+        }
+
+        .eye-svg .iris {
+            fill: #212123;
+            transition: transform .12s ease-out;
+            transform-origin: center;
+        }
+
+        .eye-svg .pupil-highlight {
+            fill: #fff;
+        }
+
+        .eye-svg .eyelid-top {
+            fill: #FFEEEE;
+            transform-origin: 67px 55px;
+            animation: eyeBlink 5s infinite;
+        }
+
+        @keyframes eyeBlink {
+            0%, 92%, 100% {
+                transform: scaleY(0);
+            }
+            94%, 98% {
+                transform: scaleY(1);
+            }
+        }
+
+        .eye-svg .eyelid-bottom {
+            fill: #FFEEEE;
+        }
+
+        /* Responsive */
+        @media (max-width: 500px) {
+            .hero-circle {
+                width: 280px;
+                height: 280px;
+            }
+            .eye-svg {
+                width: 140px;
+                height: 140px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="hero-circle">
+    <svg class="eye-svg" viewBox="0 0 134 134" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path class="eye-bg" d="M67 67C76.2843 67 83.8071 59.7614 83.8071 50.75C83.8071 41.7386 76.2843 34.5 67 34.5C57.7157 34.5 50.1929 41.7386 50.1929 50.75C50.1929 59.7614 57.7157 67 67 67Z"/>
+        <ellipse class="eye-shape" cx="67" cy="67" rx="60" ry="36"/>
+        <circle class="iris" cx="67" cy="67" r="18"/>
+        <circle class="pupil-highlight" cx="61" cy="61" r="5"/>
+        <path class="eyelid-top" d="M7 48C7 48 29 32 67 32C105 32 127 48 127 48V67H7V48Z"/>
+        <path class="eyelid-bottom" d="M7 86C7 86 29 102 67 102C105 102 127 86 127 86V67H7V86Z"/>
+    </svg>
+</div>
+
+<script>
+    // Eye follow mouse logic
+    const iris = document.querySelector('.iris');
+    const circle = document.querySelector('.hero-circle');
+
+    document.addEventListener('mousemove', (e) => {
+        const rect = circle.getBoundingClientRect();
+        const centerX = rect.left + rect.width / 2;
+        const centerY = rect.top + rect.height / 2;
+
+        const deltaX = e.clientX - centerX;
+        const deltaY = e.clientY - centerY;
+
+        // Max movement limit
+        const maxMove = 5;
+        const moveX = Math.max(-maxMove, Math.min(maxMove, deltaX / 30));
+        const moveY = Math.max(-maxMove, Math.min(maxMove, deltaY / 30));
+
+        iris.style.transform = `translate(${moveX}px, ${moveY}px)`;
+    });
+</script>
+
+</body>
+</html>

@@ -145,6 +145,16 @@
     const eyeball = document.getElementById('eyeball');
     const container = document.getElementById('hero-container');
     
+    // Cache the bounding rectangle of the container
+    let rect = container.getBoundingClientRect();
+
+    // Update the cached rectangle on resize or scroll
+    const updateRect = () => {
+        rect = container.getBoundingClientRect();
+    };
+    window.addEventListener('resize', updateRect);
+    window.addEventListener('scroll', updateRect);
+
     // Biến lưu trữ vị trí mục tiêu (chuột) và vị trí hiện tại (dùng để LERP)
     let targetX = 0, targetY = 0;
     let currentX = 0, currentY = 0;
@@ -154,7 +164,6 @@
     let currentTiltX = 0, currentTiltY = 0;
 
     document.addEventListener('mousemove', (e) => {
-        const rect = container.getBoundingClientRect();
         const centerX = rect.left + rect.width / 2;
         const centerY = rect.top + rect.height / 2;
 
